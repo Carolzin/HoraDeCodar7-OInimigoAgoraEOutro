@@ -99,9 +99,6 @@ public class Main {
 
         //6 - Qual o maior?
         //Faça um programa para ler 3 valores (considere que não serão informados valores iguais) e escrever o maior deles.
-        // Qual o maior?
-// Programa para ler 3 valores distintos e exibir o maior entre eles.
-
         System.out.println("Informe o primeiro número: ");
         int numero1 = leia.nextInt();
         System.out.println("Informe o segundo número: ");
@@ -118,7 +115,6 @@ public class Main {
 
         //6.1 - Qual o maior? (4 vezes pior)
         //Faça um programa para ler 4 valores (considere que não serão informados valores iguais) e escrever o maior deles.
-        // Qual o maior? (4 valores)
         System.out.println("Informe o primeiro número: ");
         int num2 = leia.nextInt();
         System.out.println("Informe o segundo número: ");
@@ -245,7 +241,7 @@ public class Main {
                 somaAluno += i;
                 contador++;
             }
-            double mediaAluno = (double) soma / contador;
+            double mediaAluno = (double) somaAluno / contador;
             System.out.println("A média aritmética dos números entre " + primeiroNumero + " e " + segundoNumero + " é: " + mediaAluno);
         }
     }
